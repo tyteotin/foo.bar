@@ -1,3 +1,3 @@
 # foo.bar
 # Python exercises, Dec 2015
-![My image](tyteotin.github.com/tyteotin.github.io/foobar.jpg)
+![My image](http://tyteotin.github.io./foobar.jpg)
