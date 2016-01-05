@@ -32,10 +32,10 @@ def answer(x):
                 ans[0] = "L"
         
             else:
-		# If the difference between 2 scales is bigger than the sum of
-		# all previous power of 3 including the current "weight" below, add the 
-		# next power of 3 to the lighter scale. Keep overadding the 
-		# lighter scale until difference is 1 or exact match
+				# If the difference between 2 scales is bigger than the sum of
+				# all previous power of 3 including the current "weight" below, add the 
+				# next power of 3 to the lighter scale. Keep overadding the 
+				# lighter scale until difference is 1 or exact match
                 diff = math.fabs(left_scale - right_scale)
                 weight = math.pow(3, math.floor(math.log(diff, 3)))
                 wIdx = [i for i in range(0, 20, 1) if pwr3List[i] == weight]
